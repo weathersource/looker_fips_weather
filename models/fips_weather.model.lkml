@@ -2,6 +2,7 @@ connection: "snowflake_east"
 
 # include all the views
 include: "/views/**/*.view"
+include: "/dashboards/**/*.dashboard"
 
 datagroup: kateweather_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
