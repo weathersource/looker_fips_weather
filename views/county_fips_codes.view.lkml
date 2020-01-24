@@ -1,5 +1,5 @@
 view: county_fips_codes {
-  sql_table_name: FIPS.COUNTY_FIPS_CODES ;;
+  sql_table_name: COUNTY.COUNTY_FIPS_CODES ;;
 
   dimension: county_name {
     type: string
