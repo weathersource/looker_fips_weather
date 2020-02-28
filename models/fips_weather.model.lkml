@@ -4,12 +4,12 @@ connection: "snowflake_east"
 include: "/views/**/*.view"
 include: "/dashboards/**/*.dashboard"
 
-datagroup: kateweather_default_datagroup {
+datagroup: weathersource_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"
 }
 
-persist_with: kateweather_default_datagroup
+persist_with: weathersource_default_datagroup
 
 explore: county_fips_codes {}
 
