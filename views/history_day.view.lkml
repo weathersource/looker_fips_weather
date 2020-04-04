@@ -453,7 +453,7 @@ view: history_day {
 
   measure: max_temp {
     type:  max
-    sql:  ${min_temperature_heatindex_2_m_f} ;;
+    sql:  ${max_temperature_heatindex_2_m_f} ;;
     value_format: "0"
     drill_fields: [date_date, drill_fields*, min_temp]
   }
